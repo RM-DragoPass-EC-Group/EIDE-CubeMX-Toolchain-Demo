@@ -6,12 +6,12 @@
 - 打开vscode
 - 选择左侧扩展
 
-![SelectExtensions](.\pictures\SelectExtensions.png)
+![SelectExtensions](./pictures/SelectExtensions.png)
 - 搜索 `C/C++`
 - 选择 `C/C++` 与 `C/C++ Extension Pack`
 - 点击安装
 
-![CExtensions](.\pictures\CExtensions.png)
+![CExtensions](./pictures/CExtensions.png)
 
 ---
 
@@ -20,7 +20,7 @@
 - 选择`Embedded IDE`
 - 点击安装
 
-![EIDEExtension](.\pictures\EIDEExtension.png)
+![EIDEExtension](./pictures/EIDEExtension.png)
 
 ---
 
@@ -28,15 +28,15 @@
 - 进入EIDE插件
 - 选择`OPERATIONS`
 
-![ConfiguringEIDE1](.\pictures\ConfiguringEIDE1.png)
+![ConfiguringEIDE1](./pictures/ConfiguringEIDE1.png)
 
 - 选择 `Setup Utility Tools` 
 
-![ConfiguringEIDE2](.\pictures\ConfiguringEIDE2.png)
+![ConfiguringEIDE2](./pictures/ConfiguringEIDE2.png)
 
 - 安装 `Cppcheck` `GNU Arm Embedded Toolchain` `OpenOCD Programmer`
 
-![ConfiguringEIDE3](.\pictures\ConfiguringEIDE3.png)
+![ConfiguringEIDE3](./pictures/ConfiguringEIDE3.png)
 
 - 重启VSC
 
@@ -48,7 +48,7 @@
 - 选择 `Rebuild`
 - 显示编译完成即表示配置完成
 
-![ConfiguringEIDE4](.\pictures\ConfiguringEIDE4.png)
+![ConfiguringEIDE4](./pictures/ConfiguringEIDE4.png)
 
 ## 安装STM32CubeMX
 
@@ -57,12 +57,12 @@
 - 双击安装包
 - 选择为所有用户安装
 
-![SetupCubeMX1](.\pictures\SetupCubeMX1.png)
+![SetupCubeMX1](./pictures/SetupCubeMX1.png)
 
 - 下一步
 - 选择安装路径(用户自定义)
 
-![SetupCubeMX2](.\pictures\SetupCubeMX2.png)
+![SetupCubeMX2](./pictures/SetupCubeMX2.png)
 
 - 一直下一步直到安装
 - 等待安装
@@ -73,15 +73,15 @@
 - 点击右上角退出STM32CubeMX
 - 第一次打开无法退出是正常的，需要用任务管理器关闭
 
-![SetupCubeMX3](.\pictures\SetupCubeMX3.png)
-![SetupCubeMX4](.\pictures\SetupCubeMX4.png)
+![SetupCubeMX3](./pictures/SetupCubeMX3.png)
+![SetupCubeMX4](./pictures/SetupCubeMX4.png)
 
 - 用管理员模式打开STM32CubeMX
 - 点击 `Check For Updates`
 - 选择最新更新
 
-![SetupCubeMX5](.\pictures\SetupCubeMX5.png)
+![SetupCubeMX5](./pictures/SetupCubeMX5.png)
 
-![SetupCubeMX6](.\pictures\SetupCubeMX6.png)
+![SetupCubeMX6](./pictures/SetupCubeMX6.png)
 
 - 更新需要注册账号，按照指示即可
