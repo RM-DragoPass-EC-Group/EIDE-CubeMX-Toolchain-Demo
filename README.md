@@ -2,7 +2,7 @@
 
 ## VS Code 配置
 
-### 1.扩展安装
+### 1. 扩展安装
 
 ![SelectExtensions](./pictures/SelectExtensions.png)
 
@@ -17,7 +17,7 @@
 
 ---
 
-### 3.配置 EIDE
+### 3. 配置 EIDE
 
 - 进入 EIDE，打开 `OPERATIONS`
 
@@ -35,11 +35,11 @@
 
 ---
 
-### 4.测试
+### 4. 示例项目测试
 
 #### 构建测试
 
-- 打开测试程序文件夹`Test` 中的 `Test.code-workspace` 工作区
+- 打开测试程序文件夹 `Test` 中的 `Demo.code-workspace` 工作区
 - 进入 EIDE
 - 选择 `Rebuild`
 - 显示编译完成即表示配置完成
@@ -72,7 +72,7 @@
 
 - 部分老旧版本更新需要注册账号，建议直接下载链接提供的版本
 
-### 3. 测试
+### 3. 示例项目测试
 
 - 用 STM32CubeMX 打开 `Test` 目录中的 `.ioc` 文件
 - 成功后如下图所示：
