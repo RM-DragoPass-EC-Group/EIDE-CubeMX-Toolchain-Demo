@@ -69,14 +69,14 @@
 - 一直下一步直到安装
 - 等待安装
 
-### 更新(If needed)
-
 - 打开STM32CubeMX
 - 点击右上角退出STM32CubeMX
 - 第一次打开无法退出是正常的，需要用任务管理器关闭
 
 ![SetupCubeMX3](./pictures/SetupCubeMX3.png)
 ![SetupCubeMX4](./pictures/SetupCubeMX4.png)
+
+### 更新(If needed)
 
 - 用管理员模式打开STM32CubeMX
 - 点击 `Check For Updates`
