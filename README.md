@@ -1,5 +1,10 @@
 # 工具链安装
 
+## Git 和 GitHub
+
+- 准备好 [GitHub](https://github.com/) 账号。
+- 安装好 [Git](https://git-scm.com/)
+
 ## VS Code 配置
 
 ### 1. 扩展安装
