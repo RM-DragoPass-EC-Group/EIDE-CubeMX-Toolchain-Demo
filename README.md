@@ -8,7 +8,7 @@
 
 ![SelectExtensions](./pictures/SelectExtensions.png)
 - 搜索 `C/C++`
-- 选择 `C/C++` 与 `C/C++ Extension Pack`
+- 选择 `C/C++`
 - 点击安装
 
 ![CExtensions](./pictures/CExtensions.png)
@@ -34,7 +34,7 @@
 
 ![ConfiguringEIDE2](./pictures/ConfiguringEIDE2.png)
 
-- 安装 `Cppcheck` `GNU Arm Embedded Toolchain` `OpenOCD Programmer`
+- 安装 `GNU Arm Embedded Toolchain` `OpenOCD Programmer`
 
 ![ConfiguringEIDE3](./pictures/ConfiguringEIDE3.png)
 
@@ -54,7 +54,7 @@
 
 ### 1.安装
 
-- 安装包地址 `https://dragopass.feishu.cn/drive/folder/D4WJfel9XlaZ0xdvafMc5jP5nqw` 密码 `8742&92k`
+- [安装包地址](https://dragopass.feishu.cn/drive/folder/D4WJfel9XlaZ0xdvafMc5jP5nqw) 密码 `8742&92k`
 - 下载对应系统的安装包
 - 双击安装包
 - 选择为所有用户安装
