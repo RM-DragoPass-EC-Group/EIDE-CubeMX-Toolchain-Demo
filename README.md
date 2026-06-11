@@ -5,6 +5,8 @@
 - 准备好 [GitHub](https://github.com/) 账号。
 - 安装好 [Git](https://git-scm.com/)
 
+把本仓库克隆到本地。（如果你不会，可以寻求 AI 帮助）
+
 ## VS Code 配置
 
 ### 1. 扩展安装
