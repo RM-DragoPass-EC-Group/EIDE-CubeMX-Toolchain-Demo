@@ -24,7 +24,13 @@
 
 ---
 
-### 3. 配置 EIDE
+### 3. 安装工具链，配置 EIDE
+
+这里 Windows 和 MacOS 的安装方法不同，分别介绍。
+
+(Linux 用户可以参考 MacOS 的方法用自己的包管理器安装)
+
+#### Windows
 
 - 进入 EIDE，打开 `OPERATIONS`
 
@@ -41,6 +47,38 @@
 ![ConfiguringEIDE3](./pictures/ConfiguringEIDE3.png)
 
 ---
+
+#### MacOS
+
+EIDE 没有为 MacOS 提供自动安装工具链的功能，需要手动安装。
+
+推荐使用 Homebrew 包管理器安装：
+
+- 安装 Homebrew（如果没有安装）：
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+- 安装 dotnet SDK（EIDE 的 unify_builder 所需）：
+
+```bash
+brew install --cask dotnet-sdk
+```
+
+- 安装 GNU Arm Embedded Toolchain：
+
+```bash
+brew install arm-none-eabi-gcc
+```
+
+- 安装 OpenOCD：
+
+```bash
+brew install open-ocd
+```
+
+按照上述步骤安装完成后，EIDE 应该能够自动检测到工具链。使用示例项目进行测试，如果 EIDE 检测不到刚才安装的工具链，可以在 EIDE 的设置配置中手动指定工具链路径。
 
 ### 4. 示例项目测试
 
