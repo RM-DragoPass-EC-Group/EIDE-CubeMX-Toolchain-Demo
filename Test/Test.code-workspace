@@ -1,7 +1,72 @@
 {
-    "folders": [
-        {
-            "path": "."
-        }
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "terminal.integrated.shellIntegration.enabled": false,
+    // --------------------------- 语言服务器配置 ---------------------------
+    // clangd 配置
+    "clangd.enable": false, // 禁用 clangd 插件
+    // Microsoft C/C++ 配置
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.default.configurationProvider": "cl.eide",
+    "C_Cpp.errorSquiggles": "enabledIfIncludesResolve",
+    // ---------------------------- 文件相关配置 ----------------------------
+    "files.autoGuessEncoding": true,
+    "files.associations": {
+      ".eideignore": "ignore",
+      "*.a51": "a51",
+      "*.h": "c",
+      "*.c": "c",
+      "*.hxx": "cpp",
+      "*.hpp": "cpp",
+      "*.c++": "cpp",
+      "*.cpp": "cpp",
+      "*.cxx": "cpp",
+      "*.cc": "cpp"
+    },
+    // Formatters 设置
+    "[c]": {
+      "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[cpp]": {
+      "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[yaml]": {
+      "editor.insertSpaces": true,
+      "editor.tabSize": 4,
+      "editor.autoIndent": "advanced"
+    },
+    // YAML / JSON schemas 设置：以支持这些配置文件的语法检查和智能提示
+    "yaml.schemas": {
+      "https://www.schemastore.org/clang-tidy.json": ".clang-tidy",
+      "https://www.schemastore.org/clang-format-18.x.json": ".clang-format",
+      "https://www.schemastore.org/clangd.json": ".clangd"
+    },
+    // ----------------------------- EIDE 配置 -----------------------------
+    "EIDE.Option.EnableClangdConfigGenerator": false,
+  },
+  // ----------------------------- VS Code 推荐插件配置 -----------------------------
+  // 建议单独建立一个 VS Code Profile 来管理这些插件，这样就不会影响到其他项目的开发环境。
+  "extensions": {
+    "recommendations": [
+      "cl.eide",
+      "ms-vscode.cpptools", // 和 clangd 插件功能重合且冲突
+      "marus25.cortex-debug", // 提供调试功能
+      "mcu-debug.rtos-views", // 调试时提供 RTOS 监控功能
+      "ms-vscode.vscode-serial-monitor" // 提供串口监视功能
+      // "thecreativedodo.usbip-connect", // 将 Windows 上的 USB 设备（如调试器）转发到 WSL 中
+      // "redhat.vscode-yaml",                // 语言支持：YAML
+      // "github.vscode-github-actions",      // 语言支持：GitHub Actions
+      // "zixuanwang.linkerscript",           // 语言支持：链接脚本
+      // "dan-c-underwood.arm",               // 语言支持：Arm 汇编
+      // "mhutchie.git-graph",   // 提供 Git 可视化功能
+      // "usernamehw.errorlens", // 将错误直接显示在代码中
+    ],
+    "unwantedRecommendations": [
+      "llvm-vs-code-extensions.vscode-clangd", // clangd 提供了比 Microsoft C/C++ 更强大的语言服务器功能
     ]
+  }
 }
