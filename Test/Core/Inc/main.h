@@ -57,21 +57,6 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define Mag_RSTN_Pin GPIO_PIN_6
-#define Mag_RSTN_GPIO_Port GPIOG
-#define Mag_DRDY_Pin GPIO_PIN_3
-#define Mag_DRDY_GPIO_Port GPIOG
-#define Mag_DRDY_EXTI_IRQn EXTI3_IRQn
-#define Accel_SPI1_CS_Pin GPIO_PIN_4
-#define Accel_SPI1_CS_GPIO_Port GPIOA
-#define Accel_DRDY_Pin GPIO_PIN_4
-#define Accel_DRDY_GPIO_Port GPIOC
-#define Accel_DRDY_EXTI_IRQn EXTI4_IRQn
-#define Gyro_DRDY_Pin GPIO_PIN_5
-#define Gyro_DRDY_GPIO_Port GPIOC
-#define Gyro_DRDY_EXTI_IRQn EXTI9_5_IRQn
-#define Gyro_SPI1_CS_Pin GPIO_PIN_0
-#define Gyro_SPI1_CS_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
