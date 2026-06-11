@@ -1,0 +1,102 @@
+graph: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c"
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:HAL_TIMEx_HallSensor_MspInit" label: "HAL_TIMEx_HallSensor_MspInit\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:285:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:HAL_TIMEx_HallSensor_MspDeInit" label: "HAL_TIMEx_HallSensor_MspDeInit\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:300:13" }
+node: { title: "TIMEx_DMACommutationCplt" label: "TIMEx_DMACommutationCplt\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2253:6" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "TIMEx_DMACommutationCplt" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2261:3" }
+node: { title: "TIMEx_DMACommutationHalfCplt" label: "TIMEx_DMACommutationHalfCplt\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2272:6" }
+edge: { sourcename: "TIMEx_DMACommutationHalfCplt" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2280:3" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_DMADelayPulseNCplt" label: "TIM_DMADelayPulseNCplt\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2292:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_DMADelayPulseNCplt" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2329:3" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_DMAErrorCCxN" label: "TIM_DMAErrorCCxN\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2342:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_DMAErrorCCxN" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2367:3" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "TIM_CCxNChannelCmd\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2387:13" }
+node: { title: "HAL_TIMEx_HallSensor_Init" label: "HAL_TIMEx_HallSensor_Init\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:138:19" }
+node: { title: "TIM_ResetCallback" label: "TIM_ResetCallback\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:2137:6" shape : ellipse }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Init" targetname: "TIM_ResetCallback" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:165:5" }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Init" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:172:5" }
+node: { title: "TIM_Base_SetConfig" label: "TIM_Base_SetConfig\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:2124:6" shape : ellipse }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Init" targetname: "TIM_Base_SetConfig" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:183:3" }
+node: { title: "TIM_TI1_SetConfig" label: "TIM_TI1_SetConfig\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:2125:6" shape : ellipse }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Init" targetname: "TIM_TI1_SetConfig" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:186:3" }
+node: { title: "TIM_OC2_SetConfig" label: "TIM_OC2_SetConfig\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:2126:6" shape : ellipse }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Init" targetname: "TIM_OC2_SetConfig" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:213:3" }
+node: { title: "HAL_TIMEx_HallSensor_DeInit" label: "HAL_TIMEx_HallSensor_DeInit\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:240:19" }
+edge: { sourcename: "HAL_TIMEx_HallSensor_DeInit" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:256:3" }
+node: { title: "HAL_TIMEx_HallSensor_Start" label: "HAL_TIMEx_HallSensor_Start\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:315:19" }
+node: { title: "TIM_CCxChannelCmd" label: "TIM_CCxChannelCmd\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:2134:6" shape : ellipse }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Start" targetname: "TIM_CCxChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:344:3" }
+node: { title: "HAL_TIMEx_HallSensor_Stop" label: "HAL_TIMEx_HallSensor_Stop\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:369:19" }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Stop" targetname: "TIM_CCxChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:377:3" }
+node: { title: "HAL_TIMEx_HallSensor_Start_IT" label: "HAL_TIMEx_HallSensor_Start_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:397:19" }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Start_IT" targetname: "TIM_CCxChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:429:3" }
+node: { title: "HAL_TIMEx_HallSensor_Stop_IT" label: "HAL_TIMEx_HallSensor_Stop_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:454:19" }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Stop_IT" targetname: "TIM_CCxChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:462:3" }
+node: { title: "HAL_TIMEx_HallSensor_Start_DMA" label: "HAL_TIMEx_HallSensor_Start_DMA\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:487:19" }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Start_DMA" targetname: "TIM_CCxChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:523:3" }
+node: { title: "HAL_DMA_Start_IT" label: "HAL_DMA_Start_IT\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h:663:19" shape : ellipse }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Start_DMA" targetname: "HAL_DMA_Start_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:532:7" }
+node: { title: "HAL_TIMEx_HallSensor_Stop_DMA" label: "HAL_TIMEx_HallSensor_Stop_DMA\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:563:19" }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Stop_DMA" targetname: "TIM_CCxChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:571:3" }
+node: { title: "HAL_DMA_Abort_IT" label: "HAL_DMA_Abort_IT\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h:665:19" shape : ellipse }
+edge: { sourcename: "HAL_TIMEx_HallSensor_Stop_DMA" targetname: "HAL_DMA_Abort_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:577:9" }
+node: { title: "HAL_TIMEx_OCN_Start" label: "HAL_TIMEx_OCN_Start\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:625:19" }
+edge: { sourcename: "HAL_TIMEx_OCN_Start" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:642:3" }
+node: { title: "HAL_TIMEx_OCN_Stop" label: "HAL_TIMEx_OCN_Stop\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:676:19" }
+edge: { sourcename: "HAL_TIMEx_OCN_Stop" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:682:3" }
+node: { title: "HAL_TIMEx_OCN_Start_IT" label: "HAL_TIMEx_OCN_Start_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:708:19" }
+edge: { sourcename: "HAL_TIMEx_OCN_Start_IT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:760:5" }
+node: { title: "HAL_TIMEx_OCN_Stop_IT" label: "HAL_TIMEx_OCN_Stop_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:795:19" }
+edge: { sourcename: "HAL_TIMEx_OCN_Stop_IT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:834:5" }
+node: { title: "HAL_TIMEx_OCN_Start_DMA" label: "HAL_TIMEx_OCN_Start_DMA\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:870:19" }
+edge: { sourcename: "HAL_TIMEx_OCN_Start_DMA" targetname: "HAL_DMA_Start_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:912:11" }
+edge: { sourcename: "HAL_TIMEx_OCN_Start_DMA" targetname: "HAL_DMA_Start_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:933:11" }
+edge: { sourcename: "HAL_TIMEx_OCN_Start_DMA" targetname: "HAL_DMA_Start_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:954:11" }
+edge: { sourcename: "HAL_TIMEx_OCN_Start_DMA" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:973:5" }
+node: { title: "HAL_TIMEx_OCN_Stop_DMA" label: "HAL_TIMEx_OCN_Stop_DMA\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1008:19" }
+edge: { sourcename: "HAL_TIMEx_OCN_Stop_DMA" targetname: "HAL_DMA_Abort_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1021:13" }
+edge: { sourcename: "HAL_TIMEx_OCN_Stop_DMA" targetname: "HAL_DMA_Abort_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1029:13" }
+edge: { sourcename: "HAL_TIMEx_OCN_Stop_DMA" targetname: "HAL_DMA_Abort_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1037:13" }
+edge: { sourcename: "HAL_TIMEx_OCN_Stop_DMA" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1049:5" }
+node: { title: "HAL_TIMEx_PWMN_Start" label: "HAL_TIMEx_PWMN_Start\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1098:19" }
+edge: { sourcename: "HAL_TIMEx_PWMN_Start" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1115:3" }
+node: { title: "HAL_TIMEx_PWMN_Stop" label: "HAL_TIMEx_PWMN_Stop\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1148:19" }
+edge: { sourcename: "HAL_TIMEx_PWMN_Stop" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1154:3" }
+node: { title: "HAL_TIMEx_PWMN_Start_IT" label: "HAL_TIMEx_PWMN_Start_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1180:19" }
+edge: { sourcename: "HAL_TIMEx_PWMN_Start_IT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1231:5" }
+node: { title: "HAL_TIMEx_PWMN_Stop_IT" label: "HAL_TIMEx_PWMN_Stop_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1266:19" }
+edge: { sourcename: "HAL_TIMEx_PWMN_Stop_IT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1305:5" }
+node: { title: "HAL_TIMEx_PWMN_Start_DMA" label: "HAL_TIMEx_PWMN_Start_DMA\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1341:19" }
+edge: { sourcename: "HAL_TIMEx_PWMN_Start_DMA" targetname: "HAL_DMA_Start_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1383:11" }
+edge: { sourcename: "HAL_TIMEx_PWMN_Start_DMA" targetname: "HAL_DMA_Start_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1404:11" }
+edge: { sourcename: "HAL_TIMEx_PWMN_Start_DMA" targetname: "HAL_DMA_Start_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1425:11" }
+edge: { sourcename: "HAL_TIMEx_PWMN_Start_DMA" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1444:5" }
+node: { title: "HAL_TIMEx_PWMN_Stop_DMA" label: "HAL_TIMEx_PWMN_Stop_DMA\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1479:19" }
+edge: { sourcename: "HAL_TIMEx_PWMN_Stop_DMA" targetname: "HAL_DMA_Abort_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1492:13" }
+edge: { sourcename: "HAL_TIMEx_PWMN_Stop_DMA" targetname: "HAL_DMA_Abort_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1500:13" }
+edge: { sourcename: "HAL_TIMEx_PWMN_Stop_DMA" targetname: "HAL_DMA_Abort_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1508:13" }
+edge: { sourcename: "HAL_TIMEx_PWMN_Stop_DMA" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1520:5" }
+node: { title: "HAL_TIMEx_OnePulseN_Start" label: "HAL_TIMEx_OnePulseN_Start\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1570:19" }
+edge: { sourcename: "HAL_TIMEx_OnePulseN_Start" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1597:3" }
+edge: { sourcename: "HAL_TIMEx_OnePulseN_Start" targetname: "TIM_CCxChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1598:3" }
+node: { title: "HAL_TIMEx_OnePulseN_Stop" label: "HAL_TIMEx_OnePulseN_Stop\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1619:19" }
+edge: { sourcename: "HAL_TIMEx_OnePulseN_Stop" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1627:3" }
+edge: { sourcename: "HAL_TIMEx_OnePulseN_Stop" targetname: "TIM_CCxChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1628:3" }
+node: { title: "HAL_TIMEx_OnePulseN_Start_IT" label: "HAL_TIMEx_OnePulseN_Start_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1658:19" }
+edge: { sourcename: "HAL_TIMEx_OnePulseN_Start_IT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1691:3" }
+edge: { sourcename: "HAL_TIMEx_OnePulseN_Start_IT" targetname: "TIM_CCxChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1692:3" }
+node: { title: "HAL_TIMEx_OnePulseN_Stop_IT" label: "HAL_TIMEx_OnePulseN_Stop_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1713:19" }
+edge: { sourcename: "HAL_TIMEx_OnePulseN_Stop_IT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:TIM_CCxNChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1727:3" }
+edge: { sourcename: "HAL_TIMEx_OnePulseN_Stop_IT" targetname: "TIM_CCxChannelCmd" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1728:3" }
+node: { title: "HAL_TIMEx_ConfigCommutEvent" label: "HAL_TIMEx_ConfigCommutEvent\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1792:19" }
+node: { title: "HAL_TIMEx_ConfigCommutEvent_IT" label: "HAL_TIMEx_ConfigCommutEvent_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1848:19" }
+node: { title: "HAL_TIMEx_ConfigCommutEvent_DMA" label: "HAL_TIMEx_ConfigCommutEvent_DMA\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1905:19" }
+node: { title: "HAL_TIMEx_MasterConfigSynchronization" label: "HAL_TIMEx_MasterConfigSynchronization\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:1954:19" }
+node: { title: "HAL_TIMEx_ConfigBreakDeadTime" label: "HAL_TIMEx_ConfigBreakDeadTime\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2015:19" }
+node: { title: "HAL_TIMEx_RemapConfig" label: "HAL_TIMEx_RemapConfig\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2091:19" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:HAL_TIMEx_CommutCallback" label: "HAL_TIMEx_CommutCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2147:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:HAL_TIMEx_CommutHalfCpltCallback" label: "HAL_TIMEx_CommutHalfCpltCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2161:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:HAL_TIMEx_BreakCallback" label: "HAL_TIMEx_BreakCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2176:13" }
+node: { title: "HAL_TIMEx_HallSensor_GetState" label: "HAL_TIMEx_HallSensor_GetState\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2209:22" }
+node: { title: "HAL_TIMEx_GetChannelNState" label: "HAL_TIMEx_GetChannelNState\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c:2224:29" }
+}

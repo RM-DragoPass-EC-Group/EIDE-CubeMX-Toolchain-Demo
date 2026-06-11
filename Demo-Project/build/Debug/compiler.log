@@ -1,0 +1,27 @@
+>>> info
+
+Compiler Full Name: arm-none-eabi-gcc.exe (GNU Tools for STM32 13.3.rel1.20250523-0900) 13.3.1 20240614
+Compiler Version: 13.3.1
+Builder Mode: Rebuild
+The amount of C files: 25
+The amount of C++ files: 0
+The amount of Asm files: 1
+
+>>> prebuild
+
+
+
+>>> cc
+
+
+
+>>> ld
+
+Memory region         Used Size  Region Size  %age Used
+             RAM:        2736 B       128 KB      2.09%
+          CCMRAM:           0 B        64 KB      0.00%
+           FLASH:       22152 B         1 MB      2.11%
+
+
+>>> postbuild
+

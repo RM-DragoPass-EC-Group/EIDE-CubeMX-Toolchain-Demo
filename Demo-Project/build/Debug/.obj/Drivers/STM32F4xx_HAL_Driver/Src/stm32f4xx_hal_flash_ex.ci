@@ -1,0 +1,40 @@
+graph: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c"
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_MassErase" label: "FLASH_MassErase\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:948:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_BOR_LevelConfig" label: "FLASH_OB_BOR_LevelConfig\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1226:26" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_GetUser" label: "FLASH_OB_GetUser\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1244:16" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_GetWRP" label: "FLASH_OB_GetWRP\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1254:17" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_GetRDP" label: "FLASH_OB_GetRDP\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1268:16" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_GetBOR" label: "FLASH_OB_GetBOR\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1296:16" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_EnableWRP" label: "FLASH_OB_EnableWRP\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1027:26" }
+node: { title: "FLASH_WaitForLastOperation" label: "FLASH_WaitForLastOperation\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:125:34" shape : ellipse }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_EnableWRP" targetname: "FLASH_WaitForLastOperation" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1036:12" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_DisableWRP" label: "FLASH_OB_DisableWRP\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1063:26" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_DisableWRP" targetname: "FLASH_WaitForLastOperation" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1072:12" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_RDP_LevelConfig" label: "FLASH_OB_RDP_LevelConfig\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1157:26" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_RDP_LevelConfig" targetname: "FLASH_WaitForLastOperation" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1165:12" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_UserConfig" label: "FLASH_OB_UserConfig\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1191:26" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_UserConfig" targetname: "FLASH_WaitForLastOperation" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1202:12" }
+node: { title: "HAL_FLASHEx_OBProgram" label: "HAL_FLASHEx_OBProgram\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:281:19" }
+edge: { sourcename: "HAL_FLASHEx_OBProgram" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_EnableWRP" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:298:16" }
+edge: { sourcename: "HAL_FLASHEx_OBProgram" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_DisableWRP" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:303:16" }
+edge: { sourcename: "HAL_FLASHEx_OBProgram" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_RDP_LevelConfig" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:310:14" }
+edge: { sourcename: "HAL_FLASHEx_OBProgram" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_UserConfig" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:316:14" }
+edge: { sourcename: "HAL_FLASHEx_OBProgram" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_BOR_LevelConfig" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:324:14" }
+node: { title: "HAL_FLASHEx_OBGetConfig" label: "HAL_FLASHEx_OBGetConfig\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:340:6" }
+edge: { sourcename: "HAL_FLASHEx_OBGetConfig" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_GetWRP" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:345:34" }
+edge: { sourcename: "HAL_FLASHEx_OBGetConfig" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_GetRDP" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:348:33" }
+edge: { sourcename: "HAL_FLASHEx_OBGetConfig" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_GetUser" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:351:34" }
+edge: { sourcename: "HAL_FLASHEx_OBGetConfig" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_OB_GetBOR" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:354:33" }
+node: { title: "FLASH_Erase_Sector" label: "FLASH_Erase_Sector\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:977:6" }
+node: { title: "HAL_FLASHEx_Erase_IT" label: "HAL_FLASHEx_Erase_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:231:19" }
+edge: { sourcename: "HAL_FLASHEx_Erase_IT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_MassErase" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:253:5" }
+edge: { sourcename: "HAL_FLASHEx_Erase_IT" targetname: "FLASH_Erase_Sector" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:268:5" }
+node: { title: "FLASH_FlushCaches" label: "FLASH_FlushCaches\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:1306:6" }
+node: { title: "HAL_FLASHEx_Erase" label: "HAL_FLASHEx_Erase\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:160:19" }
+edge: { sourcename: "HAL_FLASHEx_Erase" targetname: "FLASH_WaitForLastOperation" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:172:12" }
+edge: { sourcename: "HAL_FLASHEx_Erase" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:FLASH_MassErase" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:182:7" }
+edge: { sourcename: "HAL_FLASHEx_Erase" targetname: "FLASH_WaitForLastOperation" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:185:16" }
+edge: { sourcename: "HAL_FLASHEx_Erase" targetname: "FLASH_Erase_Sector" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:198:9" }
+edge: { sourcename: "HAL_FLASHEx_Erase" targetname: "FLASH_WaitForLastOperation" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:201:18" }
+edge: { sourcename: "HAL_FLASHEx_Erase" targetname: "FLASH_FlushCaches" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c:215:5" }
+}

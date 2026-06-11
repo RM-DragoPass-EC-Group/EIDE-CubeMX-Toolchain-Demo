@@ -39,7 +39,7 @@
 
 #### 构建测试
 
-- 打开测试程序文件夹 `Test` 中的 `Demo.code-workspace` 工作区
+- 打开测试程序文件夹 `Demo-Project` 中的 `Demo.code-workspace` 工作区
 - 进入 EIDE
 - 选择 `Rebuild`
 - 显示编译完成即表示配置完成
@@ -74,7 +74,7 @@
 
 ### 3. 示例项目测试
 
-- 用 STM32CubeMX 打开 `Test` 目录中的 `.ioc` 文件
+- 用 STM32CubeMX 打开 `Demo-Project` 目录中的 `.ioc` 文件
 - 成功后如下图所示：
 
 ![CubeMX 成功打开测试项目](./pictures/SetupCubeMX2.png)

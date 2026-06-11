@@ -1,0 +1,4 @@
+./User/buzzer.c:46:17:clamp_u32	0	static
+./User/buzzer.c:61:13:buzzer_mute	0	static
+./User/buzzer.c:66:13:buzzer_set_tone	16	static
+./User/buzzer.c:94:6:Buzzer_PlayHaruhiKage	16	static

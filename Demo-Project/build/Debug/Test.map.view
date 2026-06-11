@@ -1,0 +1,6 @@
+tool: GCC
+fileName: 'Test.map'
+elfName: 'Test.elf'
+compilerName: 'GNU Tools for STM32 13.3.rel1.20250523-0900'
+compilerFullName: 'arm-none-eabi-gcc.exe (GNU Tools for STM32 13.3.rel1.20250523-0900) 13.3.1 20240614'
+compilerPath: 'D:\InstalledSoftwares\DevTools\STM32CubeCLT_1.20.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe'
