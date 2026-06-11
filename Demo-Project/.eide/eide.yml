@@ -6,7 +6,6 @@ packDir: null
 srcDirs:
   - Drivers
   - Core
-  - Middlewares
   - User
 virtualFolder:
   name: <virtual_root>
@@ -28,10 +27,6 @@ targets:
         - Drivers/CMSIS/Include
         - Drivers/CMSIS/Device/ST/STM32F4xx/Include
         - Drivers/STM32F4xx_HAL_Driver/Inc
-        - Middlewares/Third_Party/FreeRTOS/Source/include
-        - Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
-        - Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
-        - ../include
         - User
       libList: []
     excludeList: []
