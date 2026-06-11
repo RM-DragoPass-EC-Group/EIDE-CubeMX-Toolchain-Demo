@@ -9,7 +9,7 @@
 搜索安装以下扩展：
 
 - `C/C++`
-- `Embedded IDE`
+- `Embedded IDE`（EIDE）
 
 ![CExtensions](./pictures/CExtensions.png)
 
@@ -19,7 +19,7 @@
 
 ### 3.配置 EIDE
 
-- 进入 EIDE 插件，打开 `OPERATIONS`
+- 进入 EIDE，打开 `OPERATIONS`
 
 ![ConfiguringEIDE1](./pictures/ConfiguringEIDE1.png)
 
@@ -37,12 +37,22 @@
 
 ### 4.测试
 
+#### 构建测试
+
 - 打开测试程序文件夹`Test` 中的 `Test.code-workspace` 工作区
-- 进入EIDE
+- 进入 EIDE
 - 选择 `Rebuild`
 - 显示编译完成即表示配置完成
 
 ![EIDE 编译成功](./pictures/ConfiguringEIDE4.png)
+
+#### 烧录测试
+
+由于没有烧录器和开发板，烧录会失败。本次只测试驱动配置是否完成。
+
+- 点击 `Flash`，如果显示如下图所示的错误提示，说明驱动配置完成。
+
+![EIDE 烧录错误](pictures/ConfiguringEIDE5.png)
 
 ## STM32CubeMX 安装
 
