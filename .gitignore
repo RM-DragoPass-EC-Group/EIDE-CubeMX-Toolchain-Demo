@@ -1,2 +1,13 @@
 # -- Build Artifacts --------------------------
+<<<<<<< HEAD
 /Test/build/
+=======
+Test/build/
+Test/Makefile
+
+# -- OS Artifacts -----------------------------
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+>>>>>>> c8efe77acf3ecdec4939f9f6bec3a8f8b3520e39
