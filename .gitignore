@@ -1,7 +1,3 @@
-# -- Build Artifacts --------------------------
-Test/build/
-Test/Makefile
-
 # -- OS Artifacts -----------------------------
 .DS_Store
 Thumbs.db
