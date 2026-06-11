@@ -1,0 +1,24 @@
+graph: { title: "./Core/Src/i2c.c"
+node: { title: "MX_I2C3_Init" label: "MX_I2C3_Init\n./Core/Src/i2c.c:30:6" }
+node: { title: "HAL_I2C_Init" label: "HAL_I2C_Init\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h:544:19" shape : ellipse }
+edge: { sourcename: "MX_I2C3_Init" targetname: "HAL_I2C_Init" label: "./Core/Src/i2c.c:49:7" }
+node: { title: "Error_Handler" label: "Error_Handler\nCore/Inc/main.h:53:6" shape : ellipse }
+edge: { sourcename: "MX_I2C3_Init" targetname: "Error_Handler" label: "./Core/Src/i2c.c:51:5" }
+node: { title: "HAL_I2C_MspInit" label: "HAL_I2C_MspInit\n./Core/Src/i2c.c:59:6" }
+node: { title: "HAL_GPIO_Init" label: "HAL_GPIO_Init\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:224:7" shape : ellipse }
+edge: { sourcename: "HAL_I2C_MspInit" targetname: "HAL_GPIO_Init" label: "./Core/Src/i2c.c:80:5" }
+edge: { sourcename: "HAL_I2C_MspInit" targetname: "HAL_GPIO_Init" label: "./Core/Src/i2c.c:87:5" }
+node: { title: "HAL_NVIC_SetPriority" label: "HAL_NVIC_SetPriority\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:261:6" shape : ellipse }
+edge: { sourcename: "HAL_I2C_MspInit" targetname: "HAL_NVIC_SetPriority" label: "./Core/Src/i2c.c:93:5" }
+node: { title: "HAL_NVIC_EnableIRQ" label: "HAL_NVIC_EnableIRQ\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:262:6" shape : ellipse }
+edge: { sourcename: "HAL_I2C_MspInit" targetname: "HAL_NVIC_EnableIRQ" label: "./Core/Src/i2c.c:94:5" }
+edge: { sourcename: "HAL_I2C_MspInit" targetname: "HAL_NVIC_SetPriority" label: "./Core/Src/i2c.c:95:5" }
+edge: { sourcename: "HAL_I2C_MspInit" targetname: "HAL_NVIC_EnableIRQ" label: "./Core/Src/i2c.c:96:5" }
+node: { title: "HAL_I2C_MspDeInit" label: "HAL_I2C_MspDeInit\n./Core/Src/i2c.c:103:6" }
+node: { title: "HAL_GPIO_DeInit" label: "HAL_GPIO_DeInit\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h:225:7" shape : ellipse }
+edge: { sourcename: "HAL_I2C_MspDeInit" targetname: "HAL_GPIO_DeInit" label: "./Core/Src/i2c.c:118:5" }
+edge: { sourcename: "HAL_I2C_MspDeInit" targetname: "HAL_GPIO_DeInit" label: "./Core/Src/i2c.c:120:5" }
+node: { title: "HAL_NVIC_DisableIRQ" label: "HAL_NVIC_DisableIRQ\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:263:6" shape : ellipse }
+edge: { sourcename: "HAL_I2C_MspDeInit" targetname: "HAL_NVIC_DisableIRQ" label: "./Core/Src/i2c.c:123:5" }
+edge: { sourcename: "HAL_I2C_MspDeInit" targetname: "HAL_NVIC_DisableIRQ" label: "./Core/Src/i2c.c:124:5" }
+}

@@ -1,0 +1,23 @@
+graph: { title: "./Core/Src/stm32f4xx_hal_timebase_tim.c"
+node: { title: "TimeBase_TIM_PeriodElapsedCallback" label: "TimeBase_TIM_PeriodElapsedCallback\n./Core/Src/stm32f4xx_hal_timebase_tim.c:151:6" }
+node: { title: "HAL_IncTick" label: "HAL_IncTick\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:232:6" shape : ellipse }
+edge: { sourcename: "TimeBase_TIM_PeriodElapsedCallback" targetname: "HAL_IncTick" label: "./Core/Src/stm32f4xx_hal_timebase_tim.c:156:3" }
+node: { title: "HAL_InitTick" label: "HAL_InitTick\n./Core/Src/stm32f4xx_hal_timebase_tim.c:42:19" }
+node: { title: "HAL_RCC_GetClockConfig" label: "HAL_RCC_GetClockConfig\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:1263:10" shape : ellipse }
+edge: { sourcename: "HAL_InitTick" targetname: "HAL_RCC_GetClockConfig" label: "./Core/Src/stm32f4xx_hal_timebase_tim.c:56:3" }
+node: { title: "HAL_RCC_GetPCLK1Freq" label: "HAL_RCC_GetPCLK1Freq\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:1260:10" shape : ellipse }
+edge: { sourcename: "HAL_InitTick" targetname: "HAL_RCC_GetPCLK1Freq" label: "./Core/Src/stm32f4xx_hal_timebase_tim.c:63:18" }
+edge: { sourcename: "HAL_InitTick" targetname: "HAL_RCC_GetPCLK1Freq" label: "./Core/Src/stm32f4xx_hal_timebase_tim.c:67:24" }
+node: { title: "HAL_TIM_Base_Init" label: "HAL_TIM_Base_Init\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1892:19" shape : ellipse }
+edge: { sourcename: "HAL_InitTick" targetname: "HAL_TIM_Base_Init" label: "./Core/Src/stm32f4xx_hal_timebase_tim.c:88:12" }
+node: { title: "HAL_TIM_Base_Start_IT" label: "HAL_TIM_Base_Start_IT\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:1900:19" shape : ellipse }
+edge: { sourcename: "HAL_InitTick" targetname: "HAL_TIM_Base_Start_IT" label: "./Core/Src/stm32f4xx_hal_timebase_tim.c:93:14" }
+node: { title: "HAL_NVIC_EnableIRQ" label: "HAL_NVIC_EnableIRQ\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:262:6" shape : ellipse }
+edge: { sourcename: "HAL_InitTick" targetname: "HAL_NVIC_EnableIRQ" label: "./Core/Src/stm32f4xx_hal_timebase_tim.c:97:9" }
+node: { title: "HAL_NVIC_SetPriority" label: "HAL_NVIC_SetPriority\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:261:6" shape : ellipse }
+edge: { sourcename: "HAL_InitTick" targetname: "HAL_NVIC_SetPriority" label: "./Core/Src/stm32f4xx_hal_timebase_tim.c:102:9" }
+node: { title: "HAL_TIM_RegisterCallback" label: "HAL_TIM_RegisterCallback\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h:2086:19" shape : ellipse }
+edge: { sourcename: "HAL_InitTick" targetname: "HAL_TIM_RegisterCallback" label: "./Core/Src/stm32f4xx_hal_timebase_tim.c:112:3" }
+node: { title: "HAL_SuspendTick" label: "HAL_SuspendTick\n./Core/Src/stm32f4xx_hal_timebase_tim.c:124:6" }
+node: { title: "HAL_ResumeTick" label: "HAL_ResumeTick\n./Core/Src/stm32f4xx_hal_timebase_tim.c:136:6" }
+}

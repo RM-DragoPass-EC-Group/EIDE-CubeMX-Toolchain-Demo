@@ -1,0 +1,172 @@
+graph: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c"
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:HAL_SPI_MspInit" label: "HAL_SPI_MspInit\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:483:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:HAL_SPI_MspDeInit" label: "HAL_SPI_MspDeInit\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:499:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:HAL_SPI_TxCpltCallback" label: "HAL_SPI_TxCpltCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2503:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:HAL_SPI_RxCpltCallback" label: "HAL_SPI_RxCpltCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2519:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:HAL_SPI_TxRxCpltCallback" label: "HAL_SPI_TxRxCpltCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2535:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:HAL_SPI_TxHalfCpltCallback" label: "HAL_SPI_TxHalfCpltCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2551:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:HAL_SPI_RxHalfCpltCallback" label: "HAL_SPI_RxHalfCpltCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2567:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:HAL_SPI_TxRxHalfCpltCallback" label: "HAL_SPI_TxRxHalfCpltCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2583:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:HAL_SPI_ErrorCallback" label: "HAL_SPI_ErrorCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2599:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:HAL_SPI_AbortCpltCallback" label: "HAL_SPI_AbortCpltCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2617:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAHalfTransmitCplt" label: "SPI_DMAHalfTransmitCplt\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2915:13" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAHalfTransmitCplt" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2921:3" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAHalfReceiveCplt" label: "SPI_DMAHalfReceiveCplt\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2933:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAHalfReceiveCplt" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2939:3" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAHalfTransmitReceiveCplt" label: "SPI_DMAHalfTransmitReceiveCplt\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2951:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAHalfTransmitReceiveCplt" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2957:3" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAError" label: "SPI_DMAError\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2969:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAError" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2980:3" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAAbortOnError" label: "SPI_DMAAbortOnError\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2992:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAAbortOnError" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3000:3" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMATxAbortCallback" label: "SPI_DMATxAbortCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3014:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMATxAbortCallback" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3065:3" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_AbortRx_ISR" label: "SPI_AbortRx_ISR\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3885:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_AbortTx_ISR" label: "SPI_AbortTx_ISR\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3921:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_WaitFlagStateUntilTimeout" label: "SPI_WaitFlagStateUntilTimeout\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3497:26" }
+node: { title: "HAL_GetTick" label: "HAL_GetTick\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:234:10" shape : ellipse }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_WaitFlagStateUntilTimeout" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3505:30" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_WaitFlagStateUntilTimeout" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3506:19" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_WaitFlagStateUntilTimeout" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3515:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTxTransaction" label: "SPI_EndRxTxTransaction\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3617:26" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTxTransaction" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_WaitFlagStateUntilTimeout" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3622:7" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTxTransaction" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_WaitFlagStateUntilTimeout" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3634:9" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTransaction" label: "SPI_EndRxTransaction\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3567:26" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTransaction" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_WaitFlagStateUntilTimeout" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3582:11" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTransaction" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_WaitFlagStateUntilTimeout" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3591:11" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTransaction" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_WaitFlagStateUntilTimeout" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3601:9" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseTx_ISR" label: "SPI_CloseTx_ISR\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3824:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseTx_ISR" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3830:15" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseTx_ISR" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTxTransaction" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3847:7" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseTx_ISR" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3863:5" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseTx_ISR" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3872:5" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_TxISR_8BIT" label: "SPI_TxISR_8BIT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3442:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_TxISR_8BIT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseTx_ISR" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3457:5" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_TxISR_16BIT" label: "SPI_TxISR_16BIT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3467:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_TxISR_16BIT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseTx_ISR" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3483:5" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRx_ISR" label: "SPI_CloseRx_ISR\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3761:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRx_ISR" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3767:7" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRx_ISR" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTransaction" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3767:7" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRx_ISR" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3799:7" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRx_ISR" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3808:7" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_RxISR_8BIT" label: "SPI_RxISR_8BIT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3353:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_RxISR_8BIT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRx_ISR" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3376:5" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_RxISR_16BIT" label: "SPI_RxISR_16BIT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3409:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_RxISR_16BIT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRx_ISR" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3432:5" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRxTx_ISR" label: "SPI_CloseRxTx_ISR\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3666:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRxTx_ISR" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3672:15" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRxTx_ISR" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTxTransaction" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3689:7" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRxTx_ISR" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3724:9" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRxTx_ISR" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3734:9" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRxTx_ISR" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3745:7" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_2linesTxISR_8BIT" label: "SPI_2linesTxISR_8BIT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3201:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_2linesTxISR_8BIT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRxTx_ISR" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3226:7" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_2linesRxISR_8BIT" label: "SPI_2linesRxISR_8BIT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3138:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_2linesRxISR_8BIT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRxTx_ISR" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3161:7" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_2linesTxISR_16BIT" label: "SPI_2linesTxISR_16BIT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3293:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_2linesTxISR_16BIT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRxTx_ISR" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3319:7" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_2linesRxISR_16BIT" label: "SPI_2linesRxISR_16BIT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3237:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_2linesRxISR_16BIT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_CloseRxTx_ISR" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3259:7" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMATransmitCplt" label: "SPI_DMATransmitCplt\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2689:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMATransmitCplt" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2695:15" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMATransmitCplt" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTxTransaction" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2707:9" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMATransmitCplt" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2725:7" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMATransmitCplt" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2734:3" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAReceiveCplt" label: "SPI_DMAReceiveCplt\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2746:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAReceiveCplt" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2755:15" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAReceiveCplt" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTransaction" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2793:9" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAReceiveCplt" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2814:7" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMAReceiveCplt" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2823:3" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMATransmitReceiveCplt" label: "SPI_DMATransmitReceiveCplt\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2835:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMATransmitReceiveCplt" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2844:15" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMATransmitReceiveCplt" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTxTransaction" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2869:9" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMATransmitReceiveCplt" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2894:7" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMATransmitReceiveCplt" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2903:3" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMARxAbortCallback" label: "SPI_DMARxAbortCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3079:13" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMARxAbortCallback" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3092:7" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMARxAbortCallback" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTxTransaction" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3092:7" }
+edge: { sourcename: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_DMARxAbortCallback" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:3126:3" }
+node: { title: "HAL_SPI_Init" label: "HAL_SPI_Init\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:313:19" }
+node: { title: "assert_failed" label: "assert_failed\nCore/Inc/stm32f4xx_hal_conf.h:486:8" shape : ellipse }
+edge: { sourcename: "HAL_SPI_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:322:3" }
+edge: { sourcename: "HAL_SPI_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:323:3" }
+edge: { sourcename: "HAL_SPI_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:324:3" }
+edge: { sourcename: "HAL_SPI_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:325:3" }
+edge: { sourcename: "HAL_SPI_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:326:3" }
+edge: { sourcename: "HAL_SPI_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:327:3" }
+edge: { sourcename: "HAL_SPI_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:328:3" }
+edge: { sourcename: "HAL_SPI_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:329:3" }
+edge: { sourcename: "HAL_SPI_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:332:5" }
+edge: { sourcename: "HAL_SPI_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:333:5" }
+edge: { sourcename: "HAL_SPI_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:337:7" }
+edge: { sourcename: "HAL_SPI_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:347:5" }
+edge: { sourcename: "HAL_SPI_Init" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:385:5" }
+node: { title: "HAL_SPI_DeInit" label: "HAL_SPI_DeInit\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:439:19" }
+edge: { sourcename: "HAL_SPI_DeInit" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:448:3" }
+edge: { sourcename: "HAL_SPI_DeInit" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:462:3" }
+node: { title: "HAL_SPI_RegisterCallback" label: "HAL_SPI_RegisterCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:519:19" }
+node: { title: "HAL_SPI_UnRegisterCallback" label: "HAL_SPI_UnRegisterCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:630:19" }
+node: { title: "HAL_SPI_Transmit" label: "HAL_SPI_Transmit\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:771:19" }
+edge: { sourcename: "HAL_SPI_Transmit" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:777:3" }
+edge: { sourcename: "HAL_SPI_Transmit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:780:15" }
+edge: { sourcename: "HAL_SPI_Transmit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:855:16" }
+edge: { sourcename: "HAL_SPI_Transmit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:885:16" }
+edge: { sourcename: "HAL_SPI_Transmit" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTxTransaction" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:903:7" }
+node: { title: "HAL_SPI_TransmitReceive" label: "HAL_SPI_TransmitReceive\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1140:19" }
+edge: { sourcename: "HAL_SPI_TransmitReceive" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1155:3" }
+edge: { sourcename: "HAL_SPI_TransmitReceive" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1158:15" }
+edge: { sourcename: "HAL_SPI_TransmitReceive" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1261:13" }
+edge: { sourcename: "HAL_SPI_TransmitReceive" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1315:14" }
+edge: { sourcename: "HAL_SPI_TransmitReceive" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTxTransaction" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1355:7" }
+node: { title: "HAL_SPI_Receive" label: "HAL_SPI_Receive\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:940:19" }
+edge: { sourcename: "HAL_SPI_Receive" targetname: "HAL_SPI_TransmitReceive" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:961:12" }
+edge: { sourcename: "HAL_SPI_Receive" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:965:15" }
+edge: { sourcename: "HAL_SPI_Receive" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1026:16" }
+edge: { sourcename: "HAL_SPI_Receive" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1050:16" }
+edge: { sourcename: "HAL_SPI_Receive" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:SPI_EndRxTransaction" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1103:7" }
+node: { title: "HAL_SPI_Transmit_IT" label: "HAL_SPI_Transmit_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1391:19" }
+edge: { sourcename: "HAL_SPI_Transmit_IT" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1395:3" }
+node: { title: "HAL_SPI_TransmitReceive_IT" label: "HAL_SPI_TransmitReceive_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1564:19" }
+edge: { sourcename: "HAL_SPI_TransmitReceive_IT" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1571:3" }
+node: { title: "HAL_SPI_Receive_IT" label: "HAL_SPI_Receive_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1473:19" }
+edge: { sourcename: "HAL_SPI_Receive_IT" targetname: "HAL_SPI_TransmitReceive_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1490:12" }
+node: { title: "HAL_SPI_Transmit_DMA" label: "HAL_SPI_Transmit_DMA\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1651:19" }
+edge: { sourcename: "HAL_SPI_Transmit_DMA" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1655:3" }
+edge: { sourcename: "HAL_SPI_Transmit_DMA" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1658:3" }
+node: { title: "HAL_DMA_Start_IT" label: "HAL_DMA_Start_IT\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h:663:19" shape : ellipse }
+edge: { sourcename: "HAL_SPI_Transmit_DMA" targetname: "HAL_DMA_Start_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1716:17" }
+node: { title: "HAL_SPI_TransmitReceive_DMA" label: "HAL_SPI_TransmitReceive_DMA\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1865:19" }
+edge: { sourcename: "HAL_SPI_TransmitReceive_DMA" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1872:3" }
+edge: { sourcename: "HAL_SPI_TransmitReceive_DMA" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1873:3" }
+edge: { sourcename: "HAL_SPI_TransmitReceive_DMA" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1876:3" }
+edge: { sourcename: "HAL_SPI_TransmitReceive_DMA" targetname: "HAL_DMA_Start_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1945:17" }
+edge: { sourcename: "HAL_SPI_TransmitReceive_DMA" targetname: "HAL_DMA_Start_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1966:17" }
+node: { title: "HAL_SPI_Receive_DMA" label: "HAL_SPI_Receive_DMA\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1755:19" }
+edge: { sourcename: "HAL_SPI_Receive_DMA" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1758:3" }
+edge: { sourcename: "HAL_SPI_Receive_DMA" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1775:5" }
+edge: { sourcename: "HAL_SPI_Receive_DMA" targetname: "HAL_SPI_TransmitReceive_DMA" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1778:12" }
+edge: { sourcename: "HAL_SPI_Receive_DMA" targetname: "HAL_DMA_Start_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:1826:17" }
+node: { title: "HAL_SPI_Abort" label: "HAL_SPI_Abort\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2008:19" }
+node: { title: "HAL_DMA_Abort" label: "HAL_DMA_Abort\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h:664:19" shape : ellipse }
+edge: { sourcename: "HAL_SPI_Abort" targetname: "HAL_DMA_Abort" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2068:11" }
+edge: { sourcename: "HAL_SPI_Abort" targetname: "HAL_DMA_Abort" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2100:11" }
+node: { title: "HAL_SPI_Abort_IT" label: "HAL_SPI_Abort_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2153:19" }
+node: { title: "HAL_DMA_Abort_IT" label: "HAL_DMA_Abort_IT\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h:665:19" shape : ellipse }
+edge: { sourcename: "HAL_SPI_Abort_IT" targetname: "HAL_DMA_Abort_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2242:11" }
+edge: { sourcename: "HAL_SPI_Abort_IT" targetname: "HAL_DMA_Abort_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2260:11" }
+edge: { sourcename: "HAL_SPI_Abort_IT" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2299:5" }
+node: { title: "HAL_SPI_DMAPause" label: "HAL_SPI_DMAPause\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2314:19" }
+node: { title: "HAL_SPI_DMAResume" label: "HAL_SPI_DMAResume\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2334:19" }
+node: { title: "HAL_SPI_DMAStop" label: "HAL_SPI_DMAStop\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2354:19" }
+edge: { sourcename: "HAL_SPI_DMAStop" targetname: "HAL_DMA_Abort" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2368:19" }
+edge: { sourcename: "HAL_SPI_DMAStop" targetname: "HAL_DMA_Abort" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2377:19" }
+node: { title: "HAL_SPI_IRQHandler" label: "HAL_SPI_IRQHandler\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2396:6" }
+edge: { sourcename: "HAL_SPI_IRQHandler" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2405:5" }
+edge: { sourcename: "HAL_SPI_IRQHandler" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2412:5" }
+edge: { sourcename: "HAL_SPI_IRQHandler" targetname: "HAL_DMA_Abort_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2466:25" }
+edge: { sourcename: "HAL_SPI_IRQHandler" targetname: "HAL_DMA_Abort_IT" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2477:25" }
+edge: { sourcename: "HAL_SPI_IRQHandler" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2487:9" }
+node: { title: "HAL_SPI_GetState" label: "HAL_SPI_GetState\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2652:22" }
+node: { title: "HAL_SPI_GetError" label: "HAL_SPI_GetError\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c:2664:10" }
+}

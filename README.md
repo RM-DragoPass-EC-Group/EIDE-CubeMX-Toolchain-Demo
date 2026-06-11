@@ -54,6 +54,8 @@
 
 ### 1.安装
 
+- 安装包地址 `https://dragopass.feishu.cn/drive/folder/D4WJfel9XlaZ0xdvafMc5jP5nqw` 密码 `8742&92k`
+- 下载对应系统的安装包
 - 双击安装包
 - 选择为所有用户安装
 
@@ -67,7 +69,7 @@
 - 一直下一步直到安装
 - 等待安装
 
-### 更新
+### 更新(If needed)
 
 - 打开STM32CubeMX
 - 点击右上角退出STM32CubeMX
@@ -84,4 +86,4 @@
 
 ![SetupCubeMX6](./pictures/SetupCubeMX6.png)
 
-- 更新需要注册账号，按照指示即可
+- 部分老旧版本更新需要注册账号，建议直接下载链接提供的版本

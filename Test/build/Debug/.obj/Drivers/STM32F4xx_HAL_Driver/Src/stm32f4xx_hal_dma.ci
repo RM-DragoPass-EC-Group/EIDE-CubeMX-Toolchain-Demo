@@ -1,0 +1,56 @@
+graph: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c"
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:DMA_SetConfig" label: "DMA_SetConfig\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:1151:13" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:DMA_CalcBaseAndBitshift" label: "DMA_CalcBaseAndBitshift\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:1185:17" }
+node: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:DMA_CheckFifoParam" label: "DMA_CheckFifoParam\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:1213:26" }
+node: { title: "HAL_DMA_Init" label: "HAL_DMA_Init\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:170:19" }
+node: { title: "HAL_GetTick" label: "HAL_GetTick\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:234:10" shape : ellipse }
+edge: { sourcename: "HAL_DMA_Init" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:173:24" }
+node: { title: "assert_failed" label: "assert_failed\nCore/Inc/stm32f4xx_hal_conf.h:486:8" shape : ellipse }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:183:3" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:184:3" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:185:3" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:186:3" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:187:3" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:188:3" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:189:3" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:190:3" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:191:3" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:192:3" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:197:5" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:198:5" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:199:5" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:215:9" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:DMA_CheckFifoParam" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:271:11" }
+edge: { sourcename: "HAL_DMA_Init" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:DMA_CalcBaseAndBitshift" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:289:32" }
+node: { title: "HAL_DMA_DeInit" label: "HAL_DMA_DeInit\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:309:19" }
+edge: { sourcename: "HAL_DMA_DeInit" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:327:3" }
+edge: { sourcename: "HAL_DMA_DeInit" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:DMA_CalcBaseAndBitshift" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:351:32" }
+node: { title: "HAL_DMA_Start" label: "HAL_DMA_Start\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:407:19" }
+edge: { sourcename: "HAL_DMA_Start" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:412:3" }
+edge: { sourcename: "HAL_DMA_Start" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:DMA_SetConfig" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:426:5" }
+node: { title: "HAL_DMA_Start_IT" label: "HAL_DMA_Start_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:451:19" }
+edge: { sourcename: "HAL_DMA_Start_IT" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:459:3" }
+edge: { sourcename: "HAL_DMA_Start_IT" targetname: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:DMA_SetConfig" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:473:5" }
+node: { title: "HAL_DMA_Abort" label: "HAL_DMA_Abort\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:513:19" }
+edge: { sourcename: "HAL_DMA_Abort" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:518:24" }
+edge: { sourcename: "HAL_DMA_Abort" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:547:11" }
+node: { title: "HAL_DMA_Abort_IT" label: "HAL_DMA_Abort_IT\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:580:19" }
+node: { title: "HAL_DMA_PollForTransfer" label: "HAL_DMA_PollForTransfer\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:610:19" }
+edge: { sourcename: "HAL_DMA_PollForTransfer" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:614:24" }
+edge: { sourcename: "HAL_DMA_PollForTransfer" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:655:29" }
+edge: { sourcename: "HAL_DMA_PollForTransfer" targetname: "HAL_DMA_Abort" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:705:7" }
+node: { title: "HAL_DMA_IRQHandler" label: "HAL_DMA_IRQHandler\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:746:6" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "HAL_DMA_IRQHandler" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:813:13" }
+edge: { sourcename: "HAL_DMA_IRQHandler" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:822:13" }
+edge: { sourcename: "HAL_DMA_IRQHandler" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:838:11" }
+edge: { sourcename: "HAL_DMA_IRQHandler" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:873:11" }
+edge: { sourcename: "HAL_DMA_IRQHandler" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:886:13" }
+edge: { sourcename: "HAL_DMA_IRQHandler" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:895:13" }
+edge: { sourcename: "HAL_DMA_IRQHandler" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:917:11" }
+edge: { sourcename: "HAL_DMA_IRQHandler" targetname: "__indirect_call" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:952:7" }
+node: { title: "HAL_DMA_RegisterCallback" label: "HAL_DMA_RegisterCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:967:19" }
+node: { title: "HAL_DMA_UnRegisterCallback" label: "HAL_DMA_UnRegisterCallback\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:1029:19" }
+node: { title: "HAL_DMA_GetState" label: "HAL_DMA_GetState\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:1114:22" }
+node: { title: "HAL_DMA_GetError" label: "HAL_DMA_GetError\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c:1125:10" }
+}

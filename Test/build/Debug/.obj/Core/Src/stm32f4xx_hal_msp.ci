@@ -1,0 +1,5 @@
+graph: { title: "./Core/Src/stm32f4xx_hal_msp.c"
+node: { title: "HAL_MspInit" label: "HAL_MspInit\n./Core/Src/stm32f4xx_hal_msp.c:62:6" }
+node: { title: "HAL_NVIC_SetPriority" label: "HAL_NVIC_SetPriority\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h:261:6" shape : ellipse }
+edge: { sourcename: "HAL_MspInit" targetname: "HAL_NVIC_SetPriority" label: "./Core/Src/stm32f4xx_hal_msp.c:74:3" }
+}

@@ -1,0 +1,62 @@
+graph: { title: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c"
+node: { title: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:prvTestWaitCondition" label: "prvTestWaitCondition\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:671:19" }
+node: { title: "xEventGroupCreateStatic" label: "xEventGroupCreateStatic\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:93:21" }
+node: { title: "vListInitialise" label: "vListInitialise\nMiddlewares/Third_Party/FreeRTOS/Source/include/list.h:345:6" shape : ellipse }
+edge: { sourcename: "xEventGroupCreateStatic" targetname: "vListInitialise" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:116:4" }
+node: { title: "xEventGroupCreate" label: "xEventGroupCreate\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:145:21" }
+node: { title: "pvPortMalloc" label: "pvPortMalloc\nMiddlewares/Third_Party/FreeRTOS/Source/include/portable.h:163:7" shape : ellipse }
+edge: { sourcename: "xEventGroupCreate" targetname: "pvPortMalloc" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:162:36" }
+edge: { sourcename: "xEventGroupCreate" targetname: "vListInitialise" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:167:4" }
+node: { title: "xEventGroupWaitBits" label: "xEventGroupWaitBits\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:311:13" }
+node: { title: "xTaskGetSchedulerState" label: "xTaskGetSchedulerState\nMiddlewares/Third_Party/FreeRTOS/Source/include/task.h:2450:12" shape : ellipse }
+edge: { sourcename: "xEventGroupWaitBits" targetname: "xTaskGetSchedulerState" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:325:3" }
+node: { title: "vTaskSuspendAll" label: "vTaskSuspendAll\nMiddlewares/Third_Party/FreeRTOS/Source/include/task.h:1287:6" shape : ellipse }
+edge: { sourcename: "xEventGroupWaitBits" targetname: "vTaskSuspendAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:329:2" }
+edge: { sourcename: "xEventGroupWaitBits" targetname: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:prvTestWaitCondition" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:334:23" }
+node: { title: "vTaskPlaceOnUnorderedEventList" label: "vTaskPlaceOnUnorderedEventList\nMiddlewares/Third_Party/FreeRTOS/Source/include/task.h:2377:6" shape : ellipse }
+edge: { sourcename: "xEventGroupWaitBits" targetname: "vTaskPlaceOnUnorderedEventList" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:387:4" }
+node: { title: "xTaskResumeAll" label: "xTaskResumeAll\nMiddlewares/Third_Party/FreeRTOS/Source/include/task.h:1341:12" shape : ellipse }
+edge: { sourcename: "xEventGroupWaitBits" targetname: "xTaskResumeAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:397:20" }
+node: { title: "uxTaskResetEventItemValue" label: "uxTaskResetEventItemValue\nMiddlewares/Third_Party/FreeRTOS/Source/include/task.h:2433:12" shape : ellipse }
+edge: { sourcename: "xEventGroupWaitBits" targetname: "uxTaskResetEventItemValue" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:414:14" }
+node: { title: "vPortEnterCritical" label: "vPortEnterCritical\nMiddlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:97:13" shape : ellipse }
+edge: { sourcename: "xEventGroupWaitBits" targetname: "vPortEnterCritical" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:418:4" }
+edge: { sourcename: "xEventGroupWaitBits" targetname: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:prvTestWaitCondition" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:425:9" }
+node: { title: "vPortExitCritical" label: "vPortExitCritical\nMiddlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:98:13" shape : ellipse }
+edge: { sourcename: "xEventGroupWaitBits" targetname: "vPortExitCritical" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:442:4" }
+node: { title: "xEventGroupClearBits" label: "xEventGroupClearBits\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:461:13" }
+edge: { sourcename: "xEventGroupClearBits" targetname: "vPortEnterCritical" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:471:2" }
+edge: { sourcename: "xEventGroupClearBits" targetname: "vPortExitCritical" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:482:2" }
+node: { title: "vEventGroupClearBitsCallback" label: "vEventGroupClearBitsCallback\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:665:6" }
+edge: { sourcename: "vEventGroupClearBitsCallback" targetname: "xEventGroupClearBits" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:667:11" }
+node: { title: "xEventGroupClearBitsFromISR" label: "xEventGroupClearBitsFromISR\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:490:13" }
+node: { title: "xTimerPendFunctionCallFromISR" label: "xTimerPendFunctionCallFromISR\nMiddlewares/Third_Party/FreeRTOS/Source/include/timers.h:1187:12" shape : ellipse }
+edge: { sourcename: "xEventGroupClearBitsFromISR" targetname: "xTimerPendFunctionCallFromISR" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:495:13" }
+node: { title: "xEventGroupGetBitsFromISR" label: "xEventGroupGetBitsFromISR\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:503:13" }
+node: { title: "xEventGroupSetBits" label: "xEventGroupSetBits\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:519:13" }
+edge: { sourcename: "xEventGroupSetBits" targetname: "vTaskSuspendAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:535:2" }
+node: { title: "vTaskRemoveFromUnorderedEventList" label: "vTaskRemoveFromUnorderedEventList\nMiddlewares/Third_Party/FreeRTOS/Source/include/task.h:2417:6" shape : ellipse }
+edge: { sourcename: "xEventGroupSetBits" targetname: "vTaskRemoveFromUnorderedEventList" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:594:5" }
+edge: { sourcename: "xEventGroupSetBits" targetname: "xTaskResumeAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:607:11" }
+node: { title: "xEventGroupSync" label: "xEventGroupSync\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:191:13" }
+edge: { sourcename: "xEventGroupSync" targetname: "xTaskGetSchedulerState" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:202:3" }
+edge: { sourcename: "xEventGroupSync" targetname: "vTaskSuspendAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:206:2" }
+edge: { sourcename: "xEventGroupSync" targetname: "xEventGroupSetBits" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:210:12" }
+edge: { sourcename: "xEventGroupSync" targetname: "vTaskPlaceOnUnorderedEventList" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:232:5" }
+edge: { sourcename: "xEventGroupSync" targetname: "xTaskResumeAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:249:20" }
+edge: { sourcename: "xEventGroupSync" targetname: "uxTaskResetEventItemValue" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:266:14" }
+edge: { sourcename: "xEventGroupSync" targetname: "vPortEnterCritical" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:271:4" }
+edge: { sourcename: "xEventGroupSync" targetname: "vPortExitCritical" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:288:4" }
+node: { title: "vEventGroupSetBitsCallback" label: "vEventGroupSetBitsCallback\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:657:6" }
+edge: { sourcename: "vEventGroupSetBitsCallback" targetname: "xEventGroupSetBits" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:659:11" }
+node: { title: "vEventGroupDelete" label: "vEventGroupDelete\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:613:6" }
+edge: { sourcename: "vEventGroupDelete" targetname: "vTaskSuspendAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:618:2" }
+edge: { sourcename: "vEventGroupDelete" targetname: "vTaskRemoveFromUnorderedEventList" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:627:4" }
+node: { title: "vPortFree" label: "vPortFree\nMiddlewares/Third_Party/FreeRTOS/Source/include/portable.h:164:6" shape : ellipse }
+edge: { sourcename: "vEventGroupDelete" targetname: "vPortFree" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:642:5" }
+edge: { sourcename: "vEventGroupDelete" targetname: "xTaskResumeAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:651:11" }
+node: { title: "xEventGroupSetBitsFromISR" label: "xEventGroupSetBitsFromISR\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:708:13" }
+edge: { sourcename: "xEventGroupSetBitsFromISR" targetname: "xTimerPendFunctionCallFromISR" label: "./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:713:13" }
+node: { title: "uxEventGroupGetNumber" label: "uxEventGroupGetNumber\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:723:14" }
+node: { title: "vEventGroupSetNumber" label: "vEventGroupSetNumber\n./Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:745:7" }
+}

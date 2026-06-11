@@ -1,0 +1,25 @@
+graph: { title: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c"
+node: { title: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:prvHeapInit" label: "prvHeapInit\n./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:333:13" }
+node: { title: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:prvInsertBlockIntoFreeList" label: "prvInsertBlockIntoFreeList\n./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:381:13" }
+node: { title: "pvPortMalloc" label: "pvPortMalloc\n./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:115:7" }
+node: { title: "vTaskSuspendAll" label: "vTaskSuspendAll\nMiddlewares/Third_Party/FreeRTOS/Source/include/task.h:1287:6" shape : ellipse }
+edge: { sourcename: "pvPortMalloc" targetname: "vTaskSuspendAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:120:2" }
+edge: { sourcename: "pvPortMalloc" targetname: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:prvHeapInit" label: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:126:4" }
+edge: { sourcename: "pvPortMalloc" targetname: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:prvInsertBlockIntoFreeList" label: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:204:7" }
+node: { title: "xTaskResumeAll" label: "xTaskResumeAll\nMiddlewares/Third_Party/FreeRTOS/Source/include/task.h:1341:12" shape : ellipse }
+edge: { sourcename: "pvPortMalloc" targetname: "xTaskResumeAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:245:11" }
+node: { title: "vPortFree" label: "vPortFree\n./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:266:6" }
+edge: { sourcename: "vPortFree" targetname: "vTaskSuspendAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:292:5" }
+edge: { sourcename: "vPortFree" targetname: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:prvInsertBlockIntoFreeList" label: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:297:6" }
+edge: { sourcename: "vPortFree" targetname: "xTaskResumeAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:300:14" }
+node: { title: "xPortGetFreeHeapSize" label: "xPortGetFreeHeapSize\n./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:315:8" }
+node: { title: "xPortGetMinimumEverFreeHeapSize" label: "xPortGetMinimumEverFreeHeapSize\n./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:321:8" }
+node: { title: "vPortInitialiseBlocks" label: "vPortInitialiseBlocks\n./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:327:6" }
+node: { title: "vPortGetHeapStats" label: "vPortGetHeapStats\n./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:442:6" }
+edge: { sourcename: "vPortGetHeapStats" targetname: "vTaskSuspendAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:447:2" }
+edge: { sourcename: "vPortGetHeapStats" targetname: "xTaskResumeAll" label: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:477:2" }
+node: { title: "vPortEnterCritical" label: "vPortEnterCritical\nMiddlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:97:13" shape : ellipse }
+edge: { sourcename: "vPortGetHeapStats" targetname: "vPortEnterCritical" label: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:483:2" }
+node: { title: "vPortExitCritical" label: "vPortExitCritical\nMiddlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:98:13" shape : ellipse }
+edge: { sourcename: "vPortGetHeapStats" targetname: "vPortExitCritical" label: "./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:490:2" }
+}

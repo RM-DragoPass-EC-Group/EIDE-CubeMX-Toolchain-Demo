@@ -1,0 +1,40 @@
+graph: { title: "./Core/Src/main.c"
+node: { title: "HAL_TIM_PeriodElapsedCallback" label: "HAL_TIM_PeriodElapsedCallback\n./Core/Src/main.c:189:6" }
+node: { title: "HAL_IncTick" label: "HAL_IncTick\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:232:6" shape : ellipse }
+edge: { sourcename: "HAL_TIM_PeriodElapsedCallback" targetname: "HAL_IncTick" label: "./Core/Src/main.c:196:5" }
+node: { title: "Error_Handler" label: "Error_Handler\n./Core/Src/main.c:207:6" }
+node: { title: "SystemClock_Config" label: "SystemClock_Config\n./Core/Src/main.c:136:6" }
+node: { title: "memset" label: "__builtin_memset\n<built-in>" shape : ellipse }
+edge: { sourcename: "SystemClock_Config" targetname: "memset" }
+node: { title: "HAL_RCC_OscConfig" label: "HAL_RCC_OscConfig\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:1245:19" shape : ellipse }
+edge: { sourcename: "SystemClock_Config" targetname: "HAL_RCC_OscConfig" label: "./Core/Src/main.c:157:7" }
+edge: { sourcename: "SystemClock_Config" targetname: "Error_Handler" label: "./Core/Src/main.c:159:5" }
+node: { title: "HAL_RCC_ClockConfig" label: "HAL_RCC_ClockConfig\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:1246:19" shape : ellipse }
+edge: { sourcename: "SystemClock_Config" targetname: "HAL_RCC_ClockConfig" label: "./Core/Src/main.c:171:7" }
+edge: { sourcename: "SystemClock_Config" targetname: "Error_Handler" label: "./Core/Src/main.c:173:5" }
+node: { title: "main" label: "main\n./Core/Src/main.c:74:5" }
+node: { title: "HAL_Init" label: "HAL_Init\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:219:19" shape : ellipse }
+edge: { sourcename: "main" targetname: "HAL_Init" label: "./Core/Src/main.c:84:3" }
+edge: { sourcename: "main" targetname: "SystemClock_Config" label: "./Core/Src/main.c:91:3" }
+node: { title: "MX_GPIO_Init" label: "MX_GPIO_Init\nCore/Inc/gpio.h:39:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_GPIO_Init" label: "./Core/Src/main.c:98:3" }
+node: { title: "MX_DMA_Init" label: "MX_DMA_Init\nCore/Inc/dma.h:41:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_DMA_Init" label: "./Core/Src/main.c:99:3" }
+node: { title: "MX_USART1_UART_Init" label: "MX_USART1_UART_Init\nCore/Inc/usart.h:43:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_USART1_UART_Init" label: "./Core/Src/main.c:100:3" }
+node: { title: "MX_USART6_UART_Init" label: "MX_USART6_UART_Init\nCore/Inc/usart.h:44:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_USART6_UART_Init" label: "./Core/Src/main.c:101:3" }
+node: { title: "MX_CRC_Init" label: "MX_CRC_Init\nCore/Inc/crc.h:41:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_CRC_Init" label: "./Core/Src/main.c:102:3" }
+node: { title: "MX_CAN1_Init" label: "MX_CAN1_Init\nCore/Inc/can.h:41:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_CAN1_Init" label: "./Core/Src/main.c:103:3" }
+node: { title: "MX_SPI1_Init" label: "MX_SPI1_Init\nCore/Inc/spi.h:41:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_SPI1_Init" label: "./Core/Src/main.c:104:3" }
+node: { title: "MX_I2C3_Init" label: "MX_I2C3_Init\nCore/Inc/i2c.h:41:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_I2C3_Init" label: "./Core/Src/main.c:105:3" }
+node: { title: "MX_TIM4_Init" label: "MX_TIM4_Init\nCore/Inc/tim.h:41:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_TIM4_Init" label: "./Core/Src/main.c:106:3" }
+node: { title: "Buzzer_PlayHaruhiKage" label: "Buzzer_PlayHaruhiKage\nUser/buzzer.h:10:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "Buzzer_PlayHaruhiKage" label: "./Core/Src/main.c:108:3" }
+node: { title: "assert_failed" label: "assert_failed\n./Core/Src/main.c:225:6" }
+}

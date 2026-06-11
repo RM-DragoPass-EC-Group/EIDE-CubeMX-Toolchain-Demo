@@ -1,0 +1,42 @@
+graph: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c"
+node: { title: "HAL_RCCEx_PeriphCLKConfig" label: "HAL_RCCEx_PeriphCLKConfig\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2551:19" }
+node: { title: "assert_failed" label: "assert_failed\nCore/Inc/stm32f4xx_hal_conf.h:486:8" shape : ellipse }
+edge: { sourcename: "HAL_RCCEx_PeriphCLKConfig" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2557:3" }
+edge: { sourcename: "HAL_RCCEx_PeriphCLKConfig" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2564:5" }
+edge: { sourcename: "HAL_RCCEx_PeriphCLKConfig" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2565:5" }
+node: { title: "HAL_GetTick" label: "HAL_GetTick\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:234:10" shape : ellipse }
+edge: { sourcename: "HAL_RCCEx_PeriphCLKConfig" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2572:17" }
+edge: { sourcename: "HAL_RCCEx_PeriphCLKConfig" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2576:12" }
+edge: { sourcename: "HAL_RCCEx_PeriphCLKConfig" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2599:17" }
+edge: { sourcename: "HAL_RCCEx_PeriphCLKConfig" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2603:12" }
+edge: { sourcename: "HAL_RCCEx_PeriphCLKConfig" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2615:5" }
+edge: { sourcename: "HAL_RCCEx_PeriphCLKConfig" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2624:17" }
+edge: { sourcename: "HAL_RCCEx_PeriphCLKConfig" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2628:12" }
+edge: { sourcename: "HAL_RCCEx_PeriphCLKConfig" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2649:21" }
+edge: { sourcename: "HAL_RCCEx_PeriphCLKConfig" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2654:16" }
+node: { title: "HAL_RCCEx_GetPeriphCLKConfig" label: "HAL_RCCEx_GetPeriphCLKConfig\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2680:6" }
+node: { title: "HAL_RCCEx_GetPeriphCLKFreq" label: "HAL_RCCEx_GetPeriphCLKFreq\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2718:10" }
+node: { title: "HAL_RCCEx_EnablePLLI2S" label: "HAL_RCCEx_EnablePLLI2S\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2846:19" }
+edge: { sourcename: "HAL_RCCEx_EnablePLLI2S" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2851:3" }
+edge: { sourcename: "HAL_RCCEx_EnablePLLI2S" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2852:3" }
+edge: { sourcename: "HAL_RCCEx_EnablePLLI2S" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2867:15" }
+edge: { sourcename: "HAL_RCCEx_EnablePLLI2S" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2870:10" }
+edge: { sourcename: "HAL_RCCEx_EnablePLLI2S" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2912:15" }
+edge: { sourcename: "HAL_RCCEx_EnablePLLI2S" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2915:10" }
+node: { title: "HAL_RCCEx_DisablePLLI2S" label: "HAL_RCCEx_DisablePLLI2S\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2929:19" }
+edge: { sourcename: "HAL_RCCEx_DisablePLLI2S" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2937:15" }
+edge: { sourcename: "HAL_RCCEx_DisablePLLI2S" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:2940:10" }
+node: { title: "HAL_RCC_DeInit" label: "HAL_RCC_DeInit\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3186:19" }
+edge: { sourcename: "HAL_RCC_DeInit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3191:15" }
+edge: { sourcename: "HAL_RCC_DeInit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3199:10" }
+edge: { sourcename: "HAL_RCC_DeInit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3209:15" }
+edge: { sourcename: "HAL_RCC_DeInit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3217:10" }
+edge: { sourcename: "HAL_RCC_DeInit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3224:15" }
+edge: { sourcename: "HAL_RCC_DeInit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3232:10" }
+edge: { sourcename: "HAL_RCC_DeInit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3239:15" }
+edge: { sourcename: "HAL_RCC_DeInit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3247:10" }
+edge: { sourcename: "HAL_RCC_DeInit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3255:15" }
+edge: { sourcename: "HAL_RCC_DeInit" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3263:10" }
+node: { title: "HAL_InitTick" label: "HAL_InitTick\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:223:19" shape : ellipse }
+edge: { sourcename: "HAL_RCC_DeInit" targetname: "HAL_InitTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c:3349:7" }
+}

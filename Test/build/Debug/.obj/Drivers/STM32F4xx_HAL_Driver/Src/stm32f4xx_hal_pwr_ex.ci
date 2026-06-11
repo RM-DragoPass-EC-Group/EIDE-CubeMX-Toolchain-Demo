@@ -1,0 +1,17 @@
+graph: { title: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c"
+node: { title: "HAL_PWREx_EnableBkUpReg" label: "HAL_PWREx_EnableBkUpReg\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:141:19" }
+node: { title: "HAL_GetTick" label: "HAL_GetTick\nDrivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:234:10" shape : ellipse }
+edge: { sourcename: "HAL_PWREx_EnableBkUpReg" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:148:15" }
+edge: { sourcename: "HAL_PWREx_EnableBkUpReg" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:153:9" }
+node: { title: "HAL_PWREx_DisableBkUpReg" label: "HAL_PWREx_DisableBkUpReg\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:165:19" }
+edge: { sourcename: "HAL_PWREx_DisableBkUpReg" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:172:15" }
+edge: { sourcename: "HAL_PWREx_DisableBkUpReg" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:177:9" }
+node: { title: "HAL_PWREx_EnableFlashPowerDown" label: "HAL_PWREx_EnableFlashPowerDown\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:189:6" }
+node: { title: "HAL_PWREx_DisableFlashPowerDown" label: "HAL_PWREx_DisableFlashPowerDown\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:198:6" }
+node: { title: "HAL_PWREx_GetVoltageRange" label: "HAL_PWREx_GetVoltageRange\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:211:10" }
+node: { title: "HAL_PWREx_ControlVoltageScaling" label: "HAL_PWREx_ControlVoltageScaling\n./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:232:19" }
+node: { title: "assert_failed" label: "assert_failed\nCore/Inc/stm32f4xx_hal_conf.h:486:8" shape : ellipse }
+edge: { sourcename: "HAL_PWREx_ControlVoltageScaling" targetname: "assert_failed" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:236:3" }
+edge: { sourcename: "HAL_PWREx_ControlVoltageScaling" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:245:15" }
+edge: { sourcename: "HAL_PWREx_ControlVoltageScaling" targetname: "HAL_GetTick" label: "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c:248:9" }
+}
